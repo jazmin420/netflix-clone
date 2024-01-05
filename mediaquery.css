@@ -1,0 +1,34 @@
+@media screen and (max-width:1200px) {
+  /* fifth setion */
+  .fifth-container {
+    flex-wrap: wrap;
+  }
+  /* fourth section */
+  .fourth-container {
+    flex-wrap: wrap;
+  }
+  /* third section */
+  .third-container {
+    flex-wrap: wrap;
+  }
+  .small-div {
+    right: 21%;
+  }
+  /* second section */
+  .second-container {
+    flex-wrap: wrap;
+  }
+/* text size */
+  h1 {
+    font-size: 35px;
+  }
+  .left-text h1, .third-right-div h1, .fourth-left-div h1, .fifth-right-text h1, #sixth h2{
+   font-size: 35px;
+    
+  }
+  .left-text p, .third-right-div p, .fourth-left-div p, .fifth-right-text p {
+    color: white;
+    font-size: 20px;
+  }
+   
+}

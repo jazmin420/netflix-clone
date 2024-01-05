@@ -1,0 +1,58 @@
+.netflix-home {
+  background: rgba(0, 0, 0, 0.65) url("./asets/bg-1.jpg");
+  background-blend-mode: darken;
+  background-size: auto;
+  background-repeat: no-repeat;
+  height: 1000px;
+  padding: 30px 40px;
+  border-bottom: 8px solid grey;
+}
+#logo-img {
+  width: 185px;
+  height: 50px;
+  background: none;
+}
+.logo-img-div {
+  display: flex;
+  width: 70%;
+}
+
+.sign-in {
+  background-color: rgba(0, 0, 0, 0.799);
+  padding: 50px 50px;
+  width: 20%;
+  margin: auto;
+}
+.sign-in h1 {
+  color: white;
+}
+.sign-in input {
+  height: 50px;
+  width: 100%;
+  margin: 15px 0;
+  background-color: rgba(128, 128, 128, 0.247);
+  border: 1px solid grey;
+  border-radius: 10px;
+}
+.sign-in button {
+  display: block;
+  height: 50px;
+  width: 100%;
+  background-color: rgb(229, 9, 20);
+  border-radius: 5px;
+  border: none;
+  color: white;
+}
+.sign-in p {
+  color: rgb(173, 170, 170);
+}
+.sign-in p>span {
+  display: inline-flex;
+}
+.sign-in p>a {
+  color: white;
+  text-decoration: none;
+}
+::placeholder {
+  padding: 4px 5px;
+}
